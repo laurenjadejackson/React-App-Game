@@ -1,0 +1,26 @@
+React App
+Game 
+
+As A User I want to enter some text and analyse it and display it in a Table and Bar chart
+
+Given I have a Game running
+When I enter "hello"
+Then I should receive the following data:
+
+key  | frequency
+h    | 1
+e    | 1
+l    | 2
+o    | 1
+
+
+GIVEN the user inputs some text
+WHEN I have the users input
+THEN I need to split the characters into individual characters
+
+GIVEN the users has entered some text
+WHEN they the table appears
+THEN the user should see table headings, characters, frequency, and relative frequency
+AND see the characters printed below the character heading 
+AND see the frequency printed below the frequency heading
+AND see the relative frequency printed below the relative frequency heading
